@@ -1,0 +1,12 @@
+runtime: php
+env: flex
+runtime_config:
+    document_root: .
+env_variables:
+   APP_LOG: errorlog
+   GOOGLE_STORAGE_BUCKET: "healthy-splice-179808.appspot.com"
+   MYSQL_USER: "**"
+   MYSQL_PASSWORD: "**"
+   MYSQL_DNS: "mysql:dbname=bdpaginasweb;unix_socket=/cloudsql/healthy-splice-179808:us-central1:prueba"
+beta_settings:
+   cloud_sql_instances: "healthy-splice-179808:us-central1:prueba"

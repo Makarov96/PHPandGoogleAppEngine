@@ -1,0 +1,8 @@
+.container.padre {
+    max-width: 600px;
+    background-color: transparent
+}
+
+.container.hijo {
+    padding-top: 20%;
+}

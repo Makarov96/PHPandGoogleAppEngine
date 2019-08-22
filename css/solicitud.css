@@ -1,0 +1,25 @@
+.container.padre {
+    max-width: 600px;
+    background-color: transparent;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+.container.hijo {
+    text-align: center;
+    padding-top: 10%;
+}
+
+.material-icons {
+    font-size: 60px;
+}
+
+form {
+    text-align: left;
+}
+
+.btn-block {
+    width: 100%;
+    color: white !important;
+}
